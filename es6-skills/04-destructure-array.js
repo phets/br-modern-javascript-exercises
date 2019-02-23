@@ -3,7 +3,6 @@
  * */
 var values = [1, 2, 3, 4];
 
-var first = values[0];
-var third = values[2];
+const [first, second, third, fourth] = values;
 
 console.log(first, third); // 1 3

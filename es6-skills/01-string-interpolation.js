@@ -5,7 +5,17 @@ var postUrl = "https://seesparkbox.com/foundry/why_we_write_the_value_of_writing
 var postTitle = "Why We Write: The Value of Writing and the Editorial Process That Keeps Us Accountable";
 var postImage = "https://seesparkbox.com/foundry/uploads/article_uploads/austin_04-27-17.jpg";
 
-var html = ``;
+var html = `
+<article class="foundry--article">
+    <a href="${postUrl}" title="${postTitle}" class="foundry--thumb-link">
+        <img class="foundry--thumb" src="${postImage}">
+    </a>
+    <header class="foundry--header">
+        <h1 class="foundry--title">
+            <a href="${postUrl}" class="foundry--link">${postTitle}</a>
+        </h1>
+    </header>
+</article>`;
 
 console.log(html);
 
